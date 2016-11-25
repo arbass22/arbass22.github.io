@@ -1,0 +1,31 @@
+---
+---
+
+$nav_color: #e57e24;
+
+#top {
+	margin-top: 50px;
+}
+
+nav.navbar {
+	background-color: $nav_color;
+	border: none;
+}
+
+.navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-nav > li.nav-active > a {
+	color: $nav_color;
+}
+
+.navbar-header {
+	color: white;
+	font-size: 25pt;
+}
+
+li.nav-active {
+	background-color: white;
+	color: white;
+}
