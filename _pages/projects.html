@@ -2,10 +2,44 @@
 layout: default
 title: "Projects"
 fulltitle: "Andrew Bass | Projects"
-permalink: "projects/"
+permalink: "projects"
 group: "navigation"
 
 ---
-<section>
-  <div id="top">hello!</div>
-</section>
+<div id="projects-header" class="top container">
+  Below are a few of the projects that I have been working on in the free time
+  that I have.  Each is marked with some of the technologies that were used as
+  well as links to the repositories and demos.
+</div>
+<div class="project-list projects-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 project-descr">
+        <div class="project-title">PoliTweet</div>
+        <div class="project-summary">
+          At HackBeanpot 2016, I worked to build a web app that analyzed tweets
+          about the 2016 presidential primary candidates.  We used Indico's sentiment
+          analysis to determine how positive or negetive each tweet was.  We then
+          used D3 to graph the changes in sentiment over time.
+        </div>
+        <div>
+          APIs:
+          <a href="https://dev.twitter.com/streaming/overview" target="_blank">Twitter Streaming</a>,
+          <a href="https://indico.io/" target="_blank">Indico</a>
+        </div>
+        <div>
+          Techonologies:
+          <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>,
+          <a href="https://facebook.github.io/react/" target="_blank">ReactJS</a>,
+          <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>
+        </div>
+        <div class="text-center">
+          {% include github-button.html url="https://github.com/mgramigna/politweet"%}
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img id="politweet-img" class="center-block" src="/img/iphone.png"/>
+      </div>
+    </div>
+  </div>
+</div>

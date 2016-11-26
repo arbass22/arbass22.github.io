@@ -3,3 +3,23 @@
 #copyright {
   margin-top: 20px;
 }
+
+$github-color: #696969;
+
+/*Bootstrap button outline override*/
+.btn.btn-outline {
+    background-color: transparent;
+    border-width: 1px;
+    border-color: inherit;
+}
+
+.btn.btn-outline:hover {
+  background-color: $github-color;
+  color: white;
+  border-color: $github-color;
+}
+
+.github-btn {
+  color: $github-color;
+  margin: 12px;
+}

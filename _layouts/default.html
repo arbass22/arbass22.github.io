@@ -3,6 +3,26 @@
 {% include head.html %}
 	<body>
 		{% include navbar.html %}
+		<nav class="navbar navbar-fixed-top">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <div> Andrew Bass</div>
+		    </div>
+		    <div class="collapse navbar-collapse">
+		      <ul class="nav navbar-nav navbar-right">
+		      	<li {% if page.url == '/' %} class="nav-active" {% endif %}>
+		        	<a href="/">About</a>
+		        </li>
+            <li {% if page.url == '/projects' %} class="nav-active" {% endif %}>
+              <a href="/projects">Projects</a>
+            </li>
+						<li {% if page.url == '/education' %} class="nav-active" {% endif %}>
+              <a href="/education">Education</a>
+            </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
 		{{ content }}
 		{% include footer.html %}
 	</body>
