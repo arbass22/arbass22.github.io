@@ -12,15 +12,15 @@ nav.navbar {
 	border: none;
 }
 
-.navbar-nav > li > a {
+nav.navbar-default .navbar-nav  li a {
 	color: white;
 }
 
-.navbar-nav > li.nav-active > a {
+nav.navbar li.nav-active a {
 	color: $nav_color;
 }
 
-.navbar-header {
+.navbar-default a.navbar-brand {
 	color: white;
 	font-size: 25pt;
 }
@@ -28,4 +28,8 @@ nav.navbar {
 li.nav-active {
 	background-color: white;
 	color: white;
+}
+
+#nav-button {
+	border-color: white;
 }
