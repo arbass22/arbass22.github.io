@@ -31,5 +31,9 @@ li.nav-active {
 }
 
 #nav-button {
-	border-color: white;
+	border: none;
+}
+
+.navbar-default .navbar-toggle span.icon-bar {
+	background-color: white;
 }
