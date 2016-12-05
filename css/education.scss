@@ -1,10 +1,28 @@
 ---
 ---
-
-.class-num {
-  visibility: hidden;
+.panel-group .accordion-root {
+  &.left {
+    padding-left: 0px;
+    padding-right: 8px;
+  }
+  &.right {
+    padding-right: 0px;
+    padding-left: 8px;
+  }
 }
 
-.class-num:hover {
-  visibility: visible;
+.education-pic {
+  margin-bottom: 20px;
+}
+
+#rel-coursework-header {
+  font-size: 30px;
+}
+
+#rel-coursework-descr {
+  font-size: 14px;
+}
+
+.course-descr {
+  margin-top: 12px;
 }
