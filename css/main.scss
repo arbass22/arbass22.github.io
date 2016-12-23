@@ -34,3 +34,15 @@ $github-color: #696969;
   right: 0;
   background-color: white;
 }
+
+#under-construction-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2px 6px 0px 0px;
+  color: gray;
+}
+
+#under-construction-close:hover {
+  text-decoration: none;
+}
