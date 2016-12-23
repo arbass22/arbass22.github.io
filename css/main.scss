@@ -23,3 +23,14 @@ $github-color: #696969;
   color: $github-color;
   margin: 12px;
 }
+
+#under-construction {
+  padding: 12px;
+  margin: 12px;
+  border: 5px solid red;
+  position: fixed;
+  z-index: 3000;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+}
