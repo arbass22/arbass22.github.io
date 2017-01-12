@@ -5,7 +5,7 @@
 }
 
 .projects-gray {
-  background-color: #e4e4e4;
+  background-color: #f0f0f0;
 }
 
 .project-descr {
@@ -16,8 +16,21 @@
   margin-bottom: 12px;
 }
 
+.project-img {
+    padding: 20px;
+}
+
 #politweet-img {
-  height: 200px;
+  height: 250px;
+}
+
+#garage-img {
+    height: 200px;
+}
+
+#projects-cta {
+    margin: 20px;
+    font-size: 24px;
 }
 
 #projects-header {

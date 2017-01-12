@@ -7,39 +7,95 @@ group: "navigation"
 
 ---
 <div id="projects-header" class="container">
-  Below are a few of the projects that I have been working on in the free time
-  that I have.  Each is marked with some of the technologies that were used as
-  well as links to the repositories and demos.
+    Below are a few of the projects that I have been working on in the free time
+    that I have.  Each is marked with some of the technologies that were used as
+    well as links to the repositories and demos.
 </div>
-<div class="project-list projects-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 project-descr">
-        <div class="project-title">PoliTweet</div>
-        <div class="project-summary">
-          At HackBeanpot 2016, I worked to build a web app that analyzed tweets
-          about the 2016 presidential primary candidates.  We used Indico's sentiment
-          analysis to determine how positive or negetive each tweet was.  We then
-          used D3 to graph the changes in sentiment over time.
+<div class="projects-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 project-descr">
+                <div class="project-title">PoliTweet</div>
+                <div class="project-summary">
+                    At HackBeanpot 2016, I worked to build a web app that analyzed tweets
+                    about the 2016 presidential primary candidates.  We used Indico's sentiment
+                    analysis to determine how positive or negetive each tweet was.  We then
+                    used D3 to graph the changes in sentiment over time.
+                </div>
+                <div>
+                    APIs:
+                    <a href="https://dev.twitter.com/streaming/overview" target="_blank">Twitter Streaming</a>,
+                    <a href="https://indico.io/" target="_blank">Indico</a>
+                </div>
+                <div>
+                    Techonologies:
+                    <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>,
+                    <a href="https://facebook.github.io/react/" target="_blank">ReactJS</a>,
+                    <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>
+                </div>
+                <div class="text-center">
+                    {% include github-button.html url="https://github.com/mgramigna/politweet"%}
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img id="politweet-img" class="center-block" src="/img/iphone.png"/>
+            </div>
         </div>
-        <div>
-          APIs:
-          <a href="https://dev.twitter.com/streaming/overview" target="_blank">Twitter Streaming</a>,
-          <a href="https://indico.io/" target="_blank">Indico</a>
-        </div>
-        <div>
-          Techonologies:
-          <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>,
-          <a href="https://facebook.github.io/react/" target="_blank">ReactJS</a>,
-          <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>
-        </div>
-        <div class="text-center">
-          {% include github-button.html url="https://github.com/mgramigna/politweet"%}
-        </div>
-      </div>
-      <div class="col-md-6">
-        <img id="politweet-img" class="center-block" src="/img/iphone.png"/>
-      </div>
     </div>
-  </div>
+</div>
+<div class="projects-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 project-descr">
+                <img id="garage-img" class="center-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Raspberry_Pi_3_Model_B.png/300px-Raspberry_Pi_3_Model_B.png"/>
+            </div>
+            <div class="col-sm-6 project-descr">
+                <div class="project-title">GaragePi</div>
+                <div class="project-summary">
+                    I built an internet-connected garage door opener for my home. The
+                    project used a Raspberry Pi that controlled the doors/sensors and
+                    a NodeJS server to handle the authentication of the user and the
+                    dispatching of requests to the Pi.
+                </div>
+                <div>
+                    Techonologies:
+                    <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a>,
+                    <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>,
+                    <a href="https://www.socket.io/" target="_blank">Web Sockets</a>
+                </div>
+                <div class="text-center">
+                    {% include github-button.html url="https://github.com/arbass22/internet-garage"%}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="projects-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 project-descr">
+                <div class="project-title">Embedded Security Capture the Flag</div>
+                <div class="project-summary">
+                    I participated in the
+                    <a href="http://mitrecyberacademy.org/competitions/embedded/">2016 Collegiate eCapture-the-Flag competition</a>
+                    hosted by MITRE centering around embedded security.  Our task
+                    was to build a secure implementation of an internet-connected door
+                    look with two factor authentication. The opening device used a BeagleBone Black
+                    with a number keypad.  We had six weeks to build our system and six
+                    weeks to try to break into a system provided by a competing school's team.
+                </div>
+                <div>
+                    Techonologies:
+                    <a href="http://twistedmatrix.com/trac/" target="_blank">Twisted</a>,
+                    <a href="https://beagleboard.org/black" target="_blank">BeagleBone Black</a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img id="politweet-img" class="center-block" src="/img/iphone.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="projects-cta" class="text-center">
+    Like what you see? Checkout my github, my resume, or contact me.
 </div>
