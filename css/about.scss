@@ -1,9 +1,40 @@
 ---
 ---
-#main-quote {
-  font-size: 24px;
-  border-left: 8px solid #e57e24;
-  padding-left: 20px;
+
+#github-link {
+    border-color: blue;
+}
+
+#projects-link {
+    border-color: red;
+}
+
+#main-links a:hover .main-link {
+    background-color: #d3d3d3;
+}
+
+#resume-link {
+    border-color: brown;
+}
+
+#contact-link {
+    border-color: green;
+}
+
+#main-links {
+    margin: 20px;
+}
+
+.main-link {
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    border-left: 8px solid;
+    margin: 12px 0px 12px 0px;
+}
+
+.bio {
+    font-size: 16px;
 }
 
 .education-descr {
