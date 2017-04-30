@@ -3,10 +3,12 @@
 
 #github-link {
     border-color: blue;
+    animation-delay: 0.2s;
 }
 
 #projects-link {
     border-color: red;
+    animation-delay: 0.4s;
 }
 
 #main-links a:hover .main-link {
@@ -15,14 +17,26 @@
 
 #resume-link {
     border-color: brown;
+    animation-delay: 0.6s;
 }
 
 #contact-link {
     border-color: green;
+    animation-delay: 0.8s;
 }
 
 #main-links {
     margin: 20px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .main-link {
@@ -31,6 +45,10 @@
     font-size: 20px;
     border-left: 8px solid;
     margin: 12px 0px 12px 0px;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .bio {
